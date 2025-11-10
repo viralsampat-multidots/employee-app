@@ -3,7 +3,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import { client } from '../../lib/sanity.client'
 import { PortableText } from '@portabletext/react'
-import { Employee } from '../types/employee'
+import { Employee } from '@/lib/types/employee'
 import { enableVisualEditing } from '@sanity/visual-editing'
 import { getSanityEditUrl } from '../../lib/sanity-utils'
 import EditInSanityButton from '../../components/EditInSanityButton'

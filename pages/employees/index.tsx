@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { client } from '@/lib/sanity.client'
-import { Employee } from '@/pages/types/employee'
+import { Employee } from '@/lib/types/employee'
 
 const employeeQuery = `*[_type == "employee"]{
   _id,
